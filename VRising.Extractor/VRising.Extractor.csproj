@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>VRising.Extractor</AssemblyName>
+    <Description>VRising Data Extractor</Description>
+    <Version>0.1.4</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>VRising.Extractor</RootNamespace>
+    <AssemblyVersion>0.1.4.0</AssemblyVersion>
+    <FileVersion>0.1.4.0</FileVersion>
+    <InformationalVersion>0.1.4+1.Branch.main.Sha.d43017f9a03686bc0fe9abdedd31b7ecf80cc804</InformationalVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be*" IncludeAssets="compile" />
+    <PackageReference Include="BepInEx.Core" Version="6.0.0-be*" IncludeAssets="compile" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" />
+    <PackageReference Include="VRising.Unhollowed.Client" Version="0.6.1.*" />
+    <PackageReference Include="VRising.VampireCommandFramework" Version="[0.5.3,)" />
+  </ItemGroup>
+</Project>

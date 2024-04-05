@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <OutputType>Library</OutputType>
+    <InvariantGlobalization>false</InvariantGlobalization>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--<PackageReference Include="Microsoft.AspNetCore" Version="8.0.0" />-->
+    <!--<PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Runtime" Version="8.0.0" />-->
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+</Project>

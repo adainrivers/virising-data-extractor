@@ -1,0 +1,8 @@
+﻿
+        //public Dictionary<int, ResourceModel> Resources => _resources ??= ComponentTypeToEntitiesMap["EntityCategory"]
+        //    .Where(id => Entities[id].EntityCategory.MainCategory == MainEntityCategory.Resource.ToString())
+        //    .ToDictionary(id => id, id => ResourceModel.FromEntity(Entities[id]));
+
+        //public Dictionary<int, ContainerModel> Containers => _containers ??= ComponentTypeToEntitiesMap["DropInInventoryOnSpawn"]
+        //    .Where(id => Entities[id].InteractAbilityBuffer != null && !Entities[id].PrefabName.Contains("Test") && !Entities[id].PrefabName.Contains("Debug") && Entities[id].InteractAbilityBuffer.Any(iab => iab.Ability == -1662046920))
+        //    .ToDictionary(id => id, id => ContainerModel.FromEntity(Entities[id]));

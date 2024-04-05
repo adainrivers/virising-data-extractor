@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VRising.Models", "VRising.Models\VRising.Models.csproj", "{B5CE706A-D0F4-4E1A-8AC1-F4F843A32DC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VRising.DataExtractor", "VRising.DataExtractor\VRising.DataExtractor.csproj", "{433F3138-16DA-48DF-A08C-6CDEFC7785B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VRising.Configuration", "VRising.Configuration\VRising.Configuration.csproj", "{412DA8DE-1889-4C20-9D68-48DE7B224091}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VRising.JsonToCsharp", "VRising.JsonToCsharp\VRising.JsonToCsharp.csproj", "{F3F06697-B8C7-4FB3-B8B8-DE88DCC782A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VRising.Localization", "VRising.Localization\VRising.Localization.csproj", "{D0024D28-7998-4423-9026-F84F83571C63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gaming.Tools.Shared.RouteLocalization", "Gaming.Tools.Shared.RouteLocalization\Gaming.Tools.Shared.RouteLocalization.csproj", "{FDA0F22A-E244-4158-ABE2-1E18BA85F547}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5CE706A-D0F4-4E1A-8AC1-F4F843A32DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5CE706A-D0F4-4E1A-8AC1-F4F843A32DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5CE706A-D0F4-4E1A-8AC1-F4F843A32DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5CE706A-D0F4-4E1A-8AC1-F4F843A32DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433F3138-16DA-48DF-A08C-6CDEFC7785B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433F3138-16DA-48DF-A08C-6CDEFC7785B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433F3138-16DA-48DF-A08C-6CDEFC7785B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433F3138-16DA-48DF-A08C-6CDEFC7785B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412DA8DE-1889-4C20-9D68-48DE7B224091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412DA8DE-1889-4C20-9D68-48DE7B224091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412DA8DE-1889-4C20-9D68-48DE7B224091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412DA8DE-1889-4C20-9D68-48DE7B224091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3F06697-B8C7-4FB3-B8B8-DE88DCC782A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F06697-B8C7-4FB3-B8B8-DE88DCC782A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F06697-B8C7-4FB3-B8B8-DE88DCC782A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F06697-B8C7-4FB3-B8B8-DE88DCC782A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0024D28-7998-4423-9026-F84F83571C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0024D28-7998-4423-9026-F84F83571C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0024D28-7998-4423-9026-F84F83571C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0024D28-7998-4423-9026-F84F83571C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA0F22A-E244-4158-ABE2-1E18BA85F547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA0F22A-E244-4158-ABE2-1E18BA85F547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA0F22A-E244-4158-ABE2-1E18BA85F547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA0F22A-E244-4158-ABE2-1E18BA85F547}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1064BD01-CC7D-4F37-BBB0-8FCCA2C0B52A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+﻿<Weavers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FodyWeavers.xsd">
+  <Costura>
+    <IncludeAssemblies>
+      AutoMapper
+      System.Text.Json
+      Bloodstone
+      VRising.JsonToCsharp
+      VRising.Models
+      VRising.Configuration
+      PluralizeService.Core
+      <!--Newtonsoft.Json-->
+    </IncludeAssemblies>
+  </Costura>
+</Weavers>
